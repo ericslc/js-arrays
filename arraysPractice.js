@@ -7,10 +7,9 @@ var arr = [10,20,30];
   //Code Here
   function first(){
     return(arr[0]);
-  }
-
-
-//Next problem
+  };
+console.log(first());
+//Nex problem
 
 
 
@@ -19,7 +18,10 @@ var arr = [40,50,60];
 
 
   //Code Here
-
+function last(){
+  var len = arr[arr.length - 1];
+  return len;
+};
 
 //Next Problem
 
@@ -28,8 +30,13 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 //Create a function named 'looper' that is given family as it's only argument, loops through the given array, and alerts every item in the array.
 
   //Code Here
+  function looper(){
+     for (var i = 0; i < family.length; i++){
+ var fam = family[i];
+           alert(fam);
 
-
+   }
+   }
 //Next problem
 
 
@@ -38,15 +45,25 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 //Write a function called reversedLooper that is given letters as it's only argument and loops through the given array backwards alerting every item in the array starting at the end.
 
   //Code Here
+  function reversedLooper(){
+    return letters.reverse();
+  }
 
 
 //Next Problem
 
 
-var nums = [1,2,3,6,22,98,45,23,22,12];
-//Write a function named evenFinder that is given nums as it's only argument and removes all values that aren't even from the given array.
+  var nums = [1,2,3,6,22,98,45,23,22,12];
+  //Write a function named evenFinder that is given nums as it's only argument and removes all values that aren't even from the given array.
 
-  //Code Here
+    //Code Here
+    function evenFinder(){
+      for(var i = 0; i < nums.length; i++){
+          if(nums[i] % 2 === 0){
+            return(nums[i]);
+          }
+      }
+    }
 
 
 //Next problem
@@ -61,7 +78,9 @@ var odds = [];
 
 
   //Code Here
+function divider(){
 
+}
 
 //Next Problem
 
@@ -131,7 +150,9 @@ var numbers = [5, '9', 16, 19, '25', '34', 48];
 //array after adding ten to each item in numbers. *Verify your answer is correct. --> [15, 19, 26, 29, 35, 44, 58]
 
   //Code Here
+function addTen(){
 
+}
 
 
 //Next Problem
